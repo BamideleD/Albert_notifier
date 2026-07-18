@@ -7,8 +7,11 @@ function getPredictions() {
 
     return new Promise((resolve, reject) => {
 
-        const command =
-            `curl --ssl-no-revoke -s "${config.API_URL}"`;
+        const command = `curl -L -s \
+        -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" \
+        -H "Referer: https://www.sofascore.com/" \
+        -H "Accept: application/json" \
+        "${config.API_URL}"`;
 
         exec(command, (error, stdout, stderr) => {
 
