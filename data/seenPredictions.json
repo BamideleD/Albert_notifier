@@ -1,0 +1,42 @@
+{
+  "15421728-1-2": {
+    "sentAt": "2026-07-18T04:44:52.463Z",
+    "eventId": 15421728,
+    "sport": "football",
+    "home": "Altona",
+    "away": "Heidelberg",
+    "vote": "2"
+  },
+  "15421730-1-1": {
+    "sentAt": "2026-07-18T04:44:53.178Z",
+    "eventId": 15421730,
+    "sport": "football",
+    "home": "South Melbourne",
+    "away": "Preston Lions",
+    "vote": "1"
+  },
+  "16554048-1-2": {
+    "sentAt": "2026-07-18T04:44:53.874Z",
+    "eventId": 16554048,
+    "sport": "tennis",
+    "home": "M. Kalyakina",
+    "away": "J. Wang",
+    "vote": "2"
+  },
+  "15404829-1-2": {
+    "sentAt": "2026-07-18T04:44:54.577Z",
+    "eventId": 15404829,
+    "sport": "football",
+    "home": "West Torrens Birkalla",
+    "away": "Salisbury Inter",
+    "vote": "2"
+  },
+  "12813003-5-yes": {
+    "sentAt": "2026-07-18T04:44:55.296Z",
+    "eventId": 12813003,
+    "sport": "football",
+    "home": "France",
+    "away": "England",
+    "vote": "yes"
+  }
+}
