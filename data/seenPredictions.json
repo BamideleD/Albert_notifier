@@ -38,5 +38,13 @@
     "home": "France",
     "away": "England",
     "vote": "yes"
+  },
+  "16550239-1-2": {
+    "sentAt": "2026-07-18T11:47:47.401Z",
+    "eventId": 16550239,
+    "sport": "basketball",
+    "home": "Croatia U20",
+    "away": "Türkiye U20",
+    "vote": "2"
   }
 }
