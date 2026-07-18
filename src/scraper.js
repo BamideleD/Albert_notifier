@@ -2,6 +2,9 @@ const { exec } = require("child_process");
 const config = require("./config");
 
 function getPredictions() {
+
+    console.log("API URL:", config.API_URL);
+    
     return new Promise((resolve, reject) => {
 
         const command =
