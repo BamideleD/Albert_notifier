@@ -4,7 +4,7 @@ const config = require("./config");
 function getPredictions() {
 
     console.log("API URL:", config.API_URL);
-    
+
     return new Promise((resolve, reject) => {
 
         const command =
@@ -21,6 +21,15 @@ function getPredictions() {
             try {
 
                 const data = JSON.parse(stdout);
+
+                console.log("=== RAW RESPONSE ===");
+                console.log(stdout);
+
+                console.log("=== KEYS ===");
+                console.log(Object.keys(data));
+
+                console.log("=== PREDICTIONS ===");
+                console.log(data.predictions);
 
                 resolve(data.predictions);
 
