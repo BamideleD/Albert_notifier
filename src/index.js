@@ -1,6 +1,6 @@
 const runNotifier = require("./notifier");
 
-const CHECK_INTERVAL = 5 * 60 * 1000; // 5 minutes
+const CHECK_INTERVAL = 60 * 1000; // 1 minute
 
 async function start() {
 
@@ -14,7 +14,7 @@ async function start() {
             console.error(err);
         }
 
-        console.log("Sleeping for 5 minutes...\n");
+        console.log("Sleeping for 1 minute...\n");
 
         await new Promise(resolve =>
             setTimeout(resolve, CHECK_INTERVAL)

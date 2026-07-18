@@ -46,5 +46,13 @@
     "home": "Croatia U20",
     "away": "Türkiye U20",
     "vote": "2"
+  },
+  "16529891-1-1": {
+    "sentAt": "2026-07-18T12:40:34.782Z",
+    "eventId": 16529891,
+    "sport": "football",
+    "home": "Stal Rzeszów",
+    "away": "Rukh Lviv",
+    "vote": "1"
   }
 }
